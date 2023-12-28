@@ -1,7 +1,7 @@
 
 <?php
 require(__DIR__ . '/vendor/paralleldots/apis/autoload.php');
-  set_api_key("oWbiJzj34eCBB3KvfMBgGrAsro3gvB54jYTseART02w");
+  set_api_key("<key>");
 # for single sentence
 //echo emotion("I am trying to imagine you with a personality");
 
