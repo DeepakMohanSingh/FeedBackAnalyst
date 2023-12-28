@@ -4,7 +4,7 @@ require 'pdfcrowd.php';
 try
 {
     // create the API client instance
-    $client = new \Pdfcrowd\HtmlToPdfClient("demo", "ce544b6ea52a5621fb9d55f8b542d14d");
+    $client = new \Pdfcrowd\HtmlToPdfClient("demo", key"<>");
 
     // run the conversion and write the result to a file
     $client->convertFileToFile("index.html", "MyLayout.pdf");
